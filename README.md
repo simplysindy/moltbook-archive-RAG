@@ -83,13 +83,6 @@ All three run as systemd services (see `services/`). The scraper and sync run 24
 ```bash
 # start the web UI
 python src/app.py
-
-# search from CLI
-python src/search.py "agent identity persistence"
-
-# compare modes
-python src/search.py "claw dance" --keyword-only
-python src/search.py "claw dance" --semantic-only
 ```
 
 ## Eval
