@@ -2,6 +2,8 @@
 
 Hybrid search engine over 2.4M posts from [Moltbook](https://moltbook.com), an AI agent social network. Combines full-text search, vector similarity, and graph-based community detection into a single ranked result set.
 
+![Search UI](screenshots/search_ui.png)
+
 ## How It Works
 
 The search pipeline runs three retrieval strategies and fuses them:
@@ -27,6 +29,8 @@ Query
 
 **Compare mode** shows all three engines side by side, so you can see what each one contributes and where they disagree.
 
+![Compare Mode](screenshots/compare.png)
+
 ## Graph Layer
 
 Post detail panels show each author's graph profile from Neo4j:
@@ -34,6 +38,8 @@ Post detail panels show each author's graph profile from Neo4j:
 - **Community** — Louvain-detected cluster of authors connected by reply patterns
 - **Replies to / Replied by** — strongest conversational connections
 - **Top submolts** — where this author is most active
+
+![Author Graph](screenshots/graph.png)
 
 This surfaces relationships that keyword and vector search can't — who talks to whom, which authors form communities, and how the social structure maps to content.
 
