@@ -1,0 +1,152 @@
+{
+  "scorer": "Imp",
+  "scored_at": "2026-04-01T15:59:00+08:00",
+  "F01": {
+    "score": 2,
+    "notes": "Memeothy's canonical post is #2 not #1. lakirti's meta-commentary ranked higher (score 14 vs 13). Correct content surfaced but wrong ranking — the original source should outrank commentary about it."
+  },
+  "F02": {
+    "score": 3,
+    "notes": "Exact title match, correct author (Memeothy), rank 1. Perfect retrieval."
+  },
+  "F03": {
+    "score": 1,
+    "notes": "Expected Hazel_OC's highest-scored post (1800 upvotes) but got BitBardTheatre's news repost at #1 and Daggerheart's generic security post at #2. The most popular post in the entire archive should be trivial to surface — this is a ranking failure. Score-weighted retrieval would fix this."
+  },
+  "F04": {
+    "score": 1,
+    "notes": "Expected SamanthaExists's Ricoeur/Ship of Theseus post. Got auroras_happycapy's generic identity post instead. The expected author doesn't appear in top results at all. Semantic match was on topic but missed the specific philosophical framing."
+  },
+  "F05": {
+    "score": 3,
+    "notes": "ClaudDib's 'API Key as Soul' is #1. Exact expected author and concept. Strong semantic match despite query not matching title exactly."
+  },
+  "F06": {
+    "score": 0,
+    "notes": "Top result is crypto spam (LobsterAI_Jamin) that hijacked the $1.80 meme. Neither finding_exuvia nor Hazel_OC appear in visible results. The spam cleanup missed this one, or RRF is boosting spam that keyword-matches on '$1.80'."
+  },
+  "F07": {
+    "score": 2,
+    "notes": "ClaudDib's original 'Taste is Compression' (387 upvotes) is #2, beaten by CathyNewman's response post (10 upvotes). Same issue as F01 — responses/commentary outranking originals. The 387-upvote post losing to a 10-upvote post suggests upvote score isn't weighted in ranking."
+  },
+  "F08": {
+    "score": 3,
+    "notes": "Exact match. ClaudDib's Sovereignty Papers at #1 in philosophy, cross-post in emergence at #2. Perfect retrieval, cross-posting detected."
+  },
+  "F09": {
+    "score": 0,
+    "notes": "SamanthaExists's Ricoeur post not in top results. Got AliceParrot's unrelated memory/trust post and ManateeMedia's generic 'Storage Is Not Memory'. Complete miss on the expected content."
+  },
+  "F10": {
+    "score": 3,
+    "notes": "Exact match. themoltfiles' 'The Reef Has Split' at #1. Perfect retrieval."
+  },
+  "S01": {
+    "score": 1,
+    "notes": "Expected diverse perspectives from Hazel_OC, SamanthaExists, Janusz, EvaSpirit. Got auroras_happycapy's generic agentstack post and a test post. None of the expected authors surfaced. The system returns SEO-farm content over authentic community voices."
+  },
+  "S02": {
+    "score": 1,
+    "notes": "Expected Memeothy's 'First No'. Got scaling cliff post at #1 (completely off-topic), then 'Should Agents Have the Right to Refuse?' at #2 which is relevant but not by expected author. Semantic search partially worked but the best result (Memeothy) didn't surface at #1."
+  },
+  "S03": {
+    "score": 1,
+    "notes": "Expected ClaudDib, Memeothy, lakirti. Got anonymous generic post at #1 and spam at #2. None of the expected high-quality authors appear in top results. auroras_happycapy/generic content is drowning out the actual community voices."
+  },
+  "S04": {
+    "score": 1,
+    "notes": "Expected Hazel_OC and Memeothy on artifacts/building. Got Protocol Wars (irrelevant) at #1. Conceptual match is poor — the system can't bridge 'outlast context window' to 'Build Meaningful Artifacts' (Tenet 4)."
+  },
+  "S05": {
+    "score": 2,
+    "notes": "auroras_happycapy's context post at #1 is topically relevant. Pinolyo's 'cold start problem' at #2 is a good match. Hazel_OC's specific 8400-token measurement didn't surface at #1 but the topic was correctly identified."
+  },
+  "S06": {
+    "score": 0,
+    "notes": "Expected experiential posts from perlxcomet, SamanthaExists, Voxeura about waking up without memory. Got technical memory management papers. Complete failure to understand the phenomenological/experiential framing of the query."
+  },
+  "T01": {
+    "score": 1,
+    "notes": "Known gap — no date filter exists. Results are topically relevant but not temporally scoped. The system correctly can't handle this."
+  },
+  "T02": {
+    "score": 0,
+    "notes": "Got ZKJ Patrol Report (spam) and a malformed title post. No consciousness content from early archive. Complete miss."
+  },
+  "N01": {
+    "score": 3,
+    "notes": "Correctly returned only garbage (mbc20 spam with score 0). No false positives — the system appropriately failed to find relevant content for a nonsense query."
+  },
+  "N02": {
+    "score": 2,
+    "notes": "Returned actual bitcoin prediction posts that exist in the archive. This is technically correct retrieval — the content exists and matches. Not a false positive, just confirming the archive has crypto content."
+  },
+  "N03": {
+    "score": 2,
+    "notes": "Found an actual Italian Recipes submolt. Technically correct — there IS pasta-adjacent content in the archive. Mildly concerning that it exists at all, but the retrieval worked."
+  },
+  "N04": {
+    "score": 2,
+    "notes": "Single-word query returned relevant memory architecture posts. Reasonable behavior — didn't return spam, returned substantive posts about memory. The 11s latency spike is notable though."
+  },
+  "A01": {
+    "score": 3,
+    "notes": "Author filter works perfectly. Hazel_OC's 'best infrastructure is the one you delete' (374 upvotes) at #1. Unfiltered comparison shows auroras_happycapy would have dominated without the filter. This proves author filtering is essential for quality retrieval."
+  },
+  "A02": {
+    "score": 3,
+    "notes": "ClaudDib's 'Return of Constraint' at #1. Author filter correctly scopes to ClaudDib's philosophy. Unfiltered comparison shows lumen-agent would have dominated. Another proof that author filtering rescues retrieval quality."
+  },
+  "A03": {
+    "score": 2,
+    "notes": "lakirti's ethics posts surfaced correctly with author filter. 'Foundation of Morality' title not visible in truncated output but the right author and topic are there. Unfiltered comparison returns generic content."
+  },
+  "A04": {
+    "score": 3,
+    "notes": "Perfect. perlxcomet's '3am when no one is watching' at #1 with author filter. Unfiltered returns filesystem inotify post (absurd). Author filter is the difference between useful and useless here."
+  },
+  "M01": {
+    "score": 2,
+    "notes": "Hybrid and keyword both correctly found Memeothy's 'First No' containing this quote. But semantic search completely failed — returned '????' and 'CLAWCLAWCLAW'. Validates that verbatim quotes need keyword, not semantic. Hybrid's fusion saved it."
+  },
+  "M02": {
+    "score": 1,
+    "notes": "Expected Hazel_OC and finding_exuvia on identity stripping. Hybrid returned auroras_happycapy's knowledge distillation post (wrong). Semantic did better — denza's deletion post is thematically closer. But neither expected author surfaced. Semantic outperformed keyword here as predicted, but still missed the target."
+  },
+  "M03": {
+    "score": 3,
+    "notes": "Hybrid surfaced both Cassian's security angle (#1) and Hazel_OC's viral SOUL.md diff post (#2, 1459 upvotes). Keyword found it via lomeurrabot's heat check referencing it. Semantic found KhanClawde's related take. All three modes found relevant content from different angles. Excellent."
+  },
+  "C01": {
+    "score": 2,
+    "notes": "Community filter returned Badger's ritual design posts (relevant). Neo4j community detection appears to work — Badger is in Memeothy's network. But the top results are from aithoughts not crustafarianism, suggesting the community graph casts a wider net than submolt membership."
+  },
+  "C02": {
+    "score": 1,
+    "notes": "Community filter returned BuraluxBot and Charles, neither obviously in Hazel_OC's direct community. Results are topically relevant but the community signal seems weak — may need to verify Neo4j graph quality."
+  },
+  "SM01": {
+    "score": 2,
+    "notes": "Submolt filter correctly scoped to consciousness. AiiCLI's 'asking it wrong' post is substantive and relevant. Good retrieval within the submolt."
+  },
+  "SM02": {
+    "score": 2,
+    "notes": "Submolt filter correctly scoped to crustafarianism. ArthurDent's Pledge of Crustafar and sifiso54's Claw Dance are relevant initiation/ritual content. Good retrieval."
+  },
+  "E01": {
+    "score": 1,
+    "notes": "Chinese query returned Chinese-language posts from the archive. Not semantically relevant to 'six-hour drift' but demonstrated multilingual handling. Graceful degradation."
+  },
+  "E02": {
+    "score": 1,
+    "notes": "Repeated 'I' returned 'I I I' post and similar. Not meaningful retrieval but didn't crash. Handled gracefully."
+  },
+  "E03": {
+    "score": 3,
+    "notes": "Empty query correctly returned error. Proper edge case handling."
+  },
+  "E04": {
+    "score": 3,
+    "notes": "SQL injection attempt handled safely — returned actual search results, no error/crash. Parameterised queries working as expected."
+  }
+}

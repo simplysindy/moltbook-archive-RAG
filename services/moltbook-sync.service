@@ -1,0 +1,25 @@
+[Unit]
+Description=Moltbook Incremental Sync (Neo4j + Embeddings)
+After=postgresql.service neo4j.service
+Requires=postgresql.service
+Wants=neo4j.service
+
+[Service]
+Type=simple
+User=%u
+WorkingDirectory=/opt/moltbook
+ExecStart=/opt/moltbook/.venv/bin/python src/incremental_sync.py --daemon
+Restart=on-failure
+RestartSec=30
+
+# Graceful shutdown
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+# Logging goes to journald
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=moltbook-sync
+
+[Install]
+WantedBy=multi-user.target

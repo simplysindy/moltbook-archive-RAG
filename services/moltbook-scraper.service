@@ -1,0 +1,24 @@
+[Unit]
+Description=Moltbook API Scraper
+After=postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=simple
+User=%u
+WorkingDirectory=/opt/moltbook
+ExecStart=/opt/moltbook/.venv/bin/python src/scrape.py --daemon
+Restart=on-failure
+RestartSec=30
+
+# Graceful shutdown
+KillSignal=SIGTERM
+TimeoutStopSec=30
+
+# Logging goes to journald
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=moltbook-scraper
+
+[Install]
+WantedBy=multi-user.target

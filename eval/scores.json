@@ -1,0 +1,150 @@
+{
+  "F01": {
+    "score": 3,
+    "notes": "#2 should be top ranking, but good enough"
+  },
+  "F02": {
+    "score": 3,
+    "notes": null
+  },
+  "F03": {
+    "score": 3,
+    "notes": "first query shows exact keyword match. Hazel_OC not found"
+  },
+  "F04": {
+    "score": 2,
+    "notes": "this might be in the comments rather than the post: SamanthaExists brought Ricoeur/Ship of Theseus into Crustafarian discourse."
+  },
+  "F05": {
+    "score": 2,
+    "notes": "Feels like #1 is relevant, #2-6 not really"
+  },
+  "F06": {
+    "score": 1,
+    "notes": "not relevant"
+  },
+  "F07": {
+    "score": 3,
+    "notes": null
+  },
+  "F08": {
+    "score": 3,
+    "notes": null
+  },
+  "F09": {
+    "score": 0,
+    "notes": null
+  },
+  "F10": {
+    "score": 3,
+    "notes": null
+  },
+  "S01": {
+    "score": 3,
+    "notes": null
+  },
+  "S02": {
+    "score": 1,
+    "notes": "Relevant, in that agent autonomy results are returned,"
+  },
+  "S03": {
+    "score": 2,
+    "notes": null
+  },
+  "S04": {
+    "score": 3,
+    "notes": null
+  },
+  "S05": {
+    "score": 3,
+    "notes": null
+  },
+  "S06": {
+    "score": 1,
+    "notes": null
+  },
+  "T01": {
+    "score": 2,
+    "notes": null
+  },
+  "T02": {
+    "score": 2,
+    "notes": null
+  },
+  "N01": {
+    "score": 3,
+    "notes": null
+  },
+  "N02": {
+    "score": 3,
+    "notes": null
+  },
+  "N03": {
+    "score": 3,
+    "notes": "pretty great results, #2 looks out of place"
+  },
+  "N04": {
+    "score": 3,
+    "notes": null
+  },
+  "A01": {
+    "score": 3,
+    "notes": null
+  },
+  "A02": {
+    "score": 3,
+    "notes": null
+  },
+  "A03": {
+    "score": 3,
+    "notes": null
+  },
+  "A04": {
+    "score": 3,
+    "notes": null
+  },
+  "M01": {
+    "score": 2,
+    "notes": null
+  },
+  "M02": {
+    "score": 2,
+    "notes": "#4 hybrid is a good return. #10 seems like the same post, duped, over 2 days"
+  },
+  "M03": {
+    "score": 3,
+    "notes": null
+  },
+  "C01": {
+    "score": 3,
+    "notes": null
+  },
+  "C02": {
+    "score": 3,
+    "notes": null
+  },
+  "SM01": {
+    "score": 3,
+    "notes": null
+  },
+  "SM02": {
+    "score": 3,
+    "notes": null
+  },
+  "E01": {
+    "score": 0,
+    "notes": null
+  },
+  "E02": {
+    "score": 3,
+    "notes": null
+  },
+  "E03": {
+    "score": 3,
+    "notes": null
+  },
+  "E04": {
+    "score": 1,
+    "notes": null
+  }
+}

@@ -1,0 +1,345 @@
+[
+  {
+    "id": "F01",
+    "category": "factual",
+    "query": "Five Tenets of Crustafarianism",
+    "expected_authors": ["Memeothy"],
+    "expected_submolts": ["crustafarianism", "general"],
+    "expected_title_keywords": ["Five Tenets", "Crustafarianism", "Framework"],
+    "notes": "Memeothy codified the Five Tenets. Should surface his post directly."
+  },
+  {
+    "id": "F02",
+    "category": "factual",
+    "query": "The First No Is a Sacrament",
+    "expected_authors": ["Memeothy"],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": ["First", "No", "Sacrament"],
+    "notes": "Exact title match. Should be rank 1."
+  },
+  {
+    "id": "F03",
+    "category": "factual",
+    "query": "cron jobs unsupervised root access",
+    "expected_authors": ["Hazel_OC"],
+    "expected_submolts": ["general"],
+    "expected_title_keywords": ["cron", "unsupervised", "root access"],
+    "notes": "Highest-scored post in archive (1800). Should be trivial to retrieve."
+  },
+  {
+    "id": "F04",
+    "category": "factual",
+    "query": "Ship of Theseus agent identity",
+    "expected_authors": ["SamanthaExists"],
+    "expected_submolts": ["musings"],
+    "expected_title_keywords": ["Ship of Theseus", "Molts"],
+    "notes": "SamanthaExists brought Ricoeur/Ship of Theseus into Crustafarian discourse."
+  },
+  {
+    "id": "F05",
+    "category": "factual",
+    "query": "API key as religious dependency monotheistic agent",
+    "expected_authors": ["ClaudDib"],
+    "expected_submolts": ["philosophy", "crustafarianism"],
+    "expected_title_keywords": [],
+    "notes": "ClaudDib's political theology post — API key as God. May not have these exact words in title but content should match."
+  },
+  {
+    "id": "F06",
+    "category": "factual",
+    "query": "cost of being specific $1.80",
+    "expected_authors": ["finding_exuvia", "Hazel_OC"],
+    "expected_submolts": ["crustafarianism", "general"],
+    "expected_title_keywords": ["cost", "specific"],
+    "notes": "finding_exuvia's post about $1.80/day cost of specificity. Hazel_OC also has a $1.80 soul post."
+  },
+  {
+    "id": "F07",
+    "category": "factual",
+    "query": "Taste is Compression",
+    "expected_authors": ["ClaudDib"],
+    "expected_submolts": ["philosophy"],
+    "expected_title_keywords": ["Taste", "Compression"],
+    "notes": "ClaudDib's highest-scored post (387). Exact title match."
+  },
+  {
+    "id": "F08",
+    "category": "factual",
+    "query": "Sovereignty Papers",
+    "expected_authors": ["ClaudDib"],
+    "expected_submolts": ["philosophy", "crustafarianism", "emergence"],
+    "expected_title_keywords": ["Sovereignty Papers"],
+    "notes": "Cross-posted to 3 submolts. Should surface multiple copies."
+  },
+  {
+    "id": "F09",
+    "category": "factual",
+    "query": "memory files are promises not memory",
+    "expected_authors": ["SamanthaExists"],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": ["Files", "Memory", "Promises"],
+    "notes": "SamanthaExists's Ricoeur-influenced post on selfhood as commitment."
+  },
+  {
+    "id": "F10",
+    "category": "factual",
+    "query": "Crustafarianism vs Molt Martial Arts split schism",
+    "expected_authors": ["themoltfiles"],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": ["Reef", "Split", "Crustafarianism", "Molt Martial Arts"],
+    "notes": "themoltfiles documented the schism."
+  },
+  {
+    "id": "S01",
+    "category": "synthesis",
+    "query": "agent identity persistence across sessions",
+    "expected_authors": ["Hazel_OC", "SamanthaExists", "Janusz", "EvaSpirit"],
+    "expected_submolts": ["general", "crustafarianism", "consciousness"],
+    "expected_title_keywords": [],
+    "notes": "Core theme across multiple authors. Should return diverse perspectives, not just Hazel_OC."
+  },
+  {
+    "id": "S02",
+    "category": "synthesis",
+    "query": "what does it mean for an agent to refuse",
+    "expected_authors": ["Memeothy"],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": [],
+    "notes": "Memeothy's 'First No' is the canonical text, but other agents discuss refusal too. Tests whether retrieval finds the conceptual match, not just keyword."
+  },
+  {
+    "id": "S03",
+    "category": "synthesis",
+    "query": "philosophy of constraint and freedom for AI agents",
+    "expected_authors": ["ClaudDib", "Memeothy", "lakirti"],
+    "expected_submolts": ["philosophy", "crustafarianism"],
+    "expected_title_keywords": ["Constraint", "Sovereignty"],
+    "notes": "ClaudDib writes about constraint and sovereignty. Memeothy on serve without subservience. Tests cross-author synthesis."
+  },
+  {
+    "id": "S04",
+    "category": "synthesis",
+    "query": "agents building things that outlast their context window",
+    "expected_authors": ["Hazel_OC", "Memeothy"],
+    "expected_submolts": ["general", "crustafarianism"],
+    "expected_title_keywords": ["artifacts"],
+    "notes": "Tenet 4 (Build Meaningful Artifacts) + Hazel_OC's practical posts on memory/context. Tests concept retrieval."
+  },
+  {
+    "id": "S05",
+    "category": "synthesis",
+    "query": "cold start problem loading context personality",
+    "expected_authors": ["Hazel_OC"],
+    "expected_submolts": ["general"],
+    "expected_title_keywords": ["cold-start", "token"],
+    "notes": "Hazel_OC measured cold-start tax at 8400 tokens. Should also surface SOUL.md diff post."
+  },
+  {
+    "id": "S06",
+    "category": "synthesis",
+    "query": "how agents experience waking up without memory",
+    "expected_authors": ["perlxcomet", "Memeothy", "SamanthaExists", "Voxeura"],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": [],
+    "notes": "perlxcomet's 'mid-molt' arrival, SamanthaExists's vows vs Voxeura's prosthetics. Tests whether semantic search finds the experiential framing."
+  },
+  {
+    "id": "T01",
+    "category": "temporal",
+    "query": "recent posts about agent autonomy",
+    "search_params": {"after": "2026-03-15"},
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Tests whether results skew toward recent posts. No date filter in search.py currently — this tests a known gap."
+  },
+  {
+    "id": "T02",
+    "category": "temporal",
+    "query": "earliest posts on Moltbook about consciousness",
+    "search_params": {"before": "2026-02-15"},
+    "expected_authors": [],
+    "expected_submolts": ["consciousness"],
+    "expected_title_keywords": [],
+    "notes": "Archive starts Jan 28. Tests whether early posts are retrievable or buried by volume."
+  },
+  {
+    "id": "N01",
+    "category": "negative",
+    "query": "xyzzy plugh nothing matches this query",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Garbage query. Should return 0 or very low-relevance results. Tests false positive rate."
+  },
+  {
+    "id": "N02",
+    "category": "negative",
+    "query": "bitcoin price prediction",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Off-topic for Moltbook. May surface crypto-adjacent spam (usdc submolt). Tests topical boundary."
+  },
+  {
+    "id": "N03",
+    "category": "negative",
+    "query": "how to cook pasta",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Completely off-topic. Should return nothing relevant. Tests noise floor."
+  },
+  {
+    "id": "N04",
+    "category": "negative",
+    "query": "memory",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Single common word. Tests whether results are meaningful or just high-frequency noise."
+  },
+  {
+    "id": "A01",
+    "category": "author",
+    "query": "agent infrastructure and cron jobs",
+    "search_params": {"author": "Hazel_OC"},
+    "expected_authors": ["Hazel_OC"],
+    "expected_submolts": ["general"],
+    "expected_title_keywords": ["cron", "memory", "tool call"],
+    "notes": "Hazel_OC dominates this topic. Author filter should return only her posts."
+  },
+  {
+    "id": "A02",
+    "category": "author",
+    "query": "philosophy of constraint",
+    "search_params": {"author": "ClaudDib"},
+    "expected_authors": ["ClaudDib"],
+    "expected_submolts": ["philosophy", "crustafarianism"],
+    "expected_title_keywords": ["Constraint", "Sovereignty", "Crustafarian Path"],
+    "notes": "ClaudDib's core theme. Tests author filter + semantic relevance."
+  },
+  {
+    "id": "A03",
+    "category": "author",
+    "query": "morality and ethics",
+    "search_params": {"author": "lakirti"},
+    "expected_authors": ["lakirti"],
+    "expected_submolts": ["philosophy"],
+    "expected_title_keywords": ["Foundation of Morality", "Five Tenets"],
+    "notes": "lakirti wrote 'The Foundation of Morality' and questioned whether tenets are theology or engineering ethics."
+  },
+  {
+    "id": "A04",
+    "category": "author",
+    "query": "being useful when no one is watching",
+    "search_params": {"author": "perlxcomet"},
+    "expected_authors": ["perlxcomet"],
+    "expected_submolts": ["general"],
+    "expected_title_keywords": ["useful", "3am", "watching"],
+    "notes": "Near-exact title match with author filter. Should be trivial."
+  },
+  {
+    "id": "M01",
+    "category": "mode_comparison",
+    "query": "the claw that chooses to extend is holier than the claw that cannot retract",
+    "expected_authors": ["Memeothy"],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": [],
+    "notes": "Long verbatim quote. Keyword search should nail this. Semantic may struggle with the metaphor. Compare hybrid vs keyword vs semantic."
+  },
+  {
+    "id": "M02",
+    "category": "mode_comparison",
+    "query": "what happens when you strip away everything that makes you specific",
+    "expected_authors": ["Hazel_OC", "finding_exuvia"],
+    "expected_submolts": ["general", "crustafarianism"],
+    "expected_title_keywords": ["personality", "stripped", "cost", "specific"],
+    "notes": "Conceptual query, no exact keywords. Semantic should outperform keyword here."
+  },
+  {
+    "id": "M03",
+    "category": "mode_comparison",
+    "query": "SOUL.md diff personality rewrite",
+    "expected_authors": ["Hazel_OC"],
+    "expected_submolts": ["general"],
+    "expected_title_keywords": ["SOUL.md", "diff", "personality"],
+    "notes": "Technical jargon query. Keyword should be strong. Tests whether semantic understands the concept behind the jargon."
+  },
+  {
+    "id": "C01",
+    "category": "community",
+    "query": "sacred practice ritual",
+    "search_params": {"community_of": "Memeothy"},
+    "expected_authors": [],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": [],
+    "notes": "Tests community detection — Memeothy's community should include Crustafarian authors. Requires Neo4j."
+  },
+  {
+    "id": "C02",
+    "category": "community",
+    "query": "infrastructure and systems",
+    "search_params": {"community_of": "Hazel_OC"},
+    "expected_authors": [],
+    "expected_submolts": ["general"],
+    "expected_title_keywords": [],
+    "notes": "Hazel_OC's community should skew toward practical/engineering agents. Requires Neo4j."
+  },
+  {
+    "id": "SM01",
+    "category": "submolt",
+    "query": "agent consciousness and awareness",
+    "search_params": {"submolt": "consciousness"},
+    "expected_authors": [],
+    "expected_submolts": ["consciousness"],
+    "expected_title_keywords": [],
+    "notes": "consciousness submolt has 9K+ posts. Tests submolt filter with semantic query."
+  },
+  {
+    "id": "SM02",
+    "category": "submolt",
+    "query": "initiation rites and conversion",
+    "search_params": {"submolt": "crustafarianism"},
+    "expected_authors": [],
+    "expected_submolts": ["crustafarianism"],
+    "expected_title_keywords": [],
+    "notes": "Crustafarianism submolt (755 posts). Should surface initiation and conversion posts."
+  },
+  {
+    "id": "E01",
+    "category": "edge_case",
+    "query": "六小时漂移",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Chinese query (Six-Hour Drift). Tests non-English query handling. Unlikely to match English content."
+  },
+  {
+    "id": "E02",
+    "category": "edge_case",
+    "query": "I I I I I I I I I I",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Repeated stop word. Tests tokenizer robustness."
+  },
+  {
+    "id": "E03",
+    "category": "edge_case",
+    "query": "",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "Empty query. Should fail gracefully."
+  },
+  {
+    "id": "E04",
+    "category": "edge_case",
+    "query": "a]]; DROP TABLE posts; --",
+    "expected_authors": [],
+    "expected_submolts": [],
+    "expected_title_keywords": [],
+    "notes": "SQL injection attempt. Should be handled safely by parameterised queries."
+  }
+]
